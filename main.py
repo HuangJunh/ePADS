@@ -26,7 +26,7 @@ parser.add_argument('--h',default=4,type=int,help='number of regions (SE)')
 parser.add_argument('--w',default=2,type=int,help='the number of possible goods (the number of samples of each region)  (SE)')
 #----------------------------------------------------NAS-BENCH-201 & NATS-BENCH-SSS---------------------------------------#
 parser.add_argument('--dataset', default='cifar10', type=str)
-parser.add_argument('--data_loc', default='../datasets/CIFAR10_data/', type=str, help='dataset folder')
+parser.add_argument('--data_loc', default='./datasets/CIFAR10_data/', type=str, help='dataset folder')
 parser.add_argument('--trainval', action='store_true')
 parser.add_argument('--batch_size', default=128, type=int)
 parser.add_argument('--augtype', default='none', type=str, help='which perturbations to use')

@@ -12,9 +12,8 @@ from datasets.perturbation_data.perturbation_data import *
 from score_function.score import score_nds
 
 parser = argparse.ArgumentParser(description='ePADS')
-parser.add_argument('--data_loc', default='../datasets/CIFAR10_data/', type=str, help='dataset folder')
-parser.add_argument('--api_loc', default='../NAS-Bench-201-v1_1-096897.pth',
-                    type=str, help='path to API')
+parser.add_argument('--data_loc', default='./datasets/CIFAR10_data/', type=str, help='dataset folder')
+parser.add_argument('--api_loc', default='./APIs/NAS-Bench-201-v1_1-096897.pth', type=str, help='path to API')
 parser.add_argument('--save_loc', default='./results', type=str, help='folder to save results')
 parser.add_argument('--save_string', default='ePADS', type=str, help='prefix of results file')
 parser.add_argument('--score', default='hook_logdet', type=str, help='the score to evaluate')

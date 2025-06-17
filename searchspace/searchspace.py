@@ -16,8 +16,8 @@ class NASBENCH201:
     '''201'''
     def __init__(self, dataset,args):
         self.dataset = dataset
-        print("Loading api...")#NAS-Bench-201-v1_0-e61699.pth
-        self.api = API201('/vol/grid-solar/sgeusers/huangjunh/DATASETS/NAS-Bench-201-v1_1-096897.pth',verbose=False)
+        print("Loading api...")
+        self.api = API201('./APIs/NAS-Bench-201-v1_1-096897.pth',verbose=False)
         print("Finished loading.")
         self.operations = ['none', 'skip_connect', 'nor_conv_1x1', 'nor_conv_3x3', 'avg_pool_3x3' ]
         self.args=args
@@ -232,7 +232,7 @@ def return_feature_layer(network, prefix=''):
 class NDS:
     def __init__(self, searchspace):
         self.searchspace = searchspace
-        data = json.load(open(f'/vol/grid-solar/sgeusers/huangjunh/DATASETS/nds_data/{searchspace}.json', 'r'))
+        data = json.load(open(f'./APIs/nds_data/{searchspace}.json', 'r'))
         try:
             data = data['top'] + data['mid']
         except Exception as e:
