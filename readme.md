@@ -20,8 +20,7 @@ If you use this code in your research, please cite the following paper:
   title={Efficient Perturbation-Aware Distinguishing Score for Zero-Shot Neural Architecture Search},
   journal={Applied Soft Computing},
   year={2025},
-  volume={},
-  number={},
-  pages={},
+  volume = {182},
+  pages = {113447},
   doi={}}
 ```
