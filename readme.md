@@ -1,7 +1,7 @@
 # ePADS
 J. Huang, B. Xue, Y. Sun, M. Zhang, and G. G. Yen, “Efficient Perturbation-Aware Distinguishing Score for Zero-Shot Neural Architecture Search,” Applied Soft Computing, 2025.
 
-📑 [Read the Paper]()
+📑 [Read the Paper](https://www.sciencedirect.com/science/article/abs/pii/S1568494625007586)
 
 ## Preparation
 This code is tested with Python 3.12.7, PyTorch 2.5.1, and CUDA 12.7. 
