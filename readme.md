@@ -22,5 +22,5 @@ If you use this code in your research, please cite the following paper:
   year={2025},
   volume={182},
   pages={113447},
-  doi={}}
+  doi={https://doi.org/10.1016/j.asoc.2025.113447}}
 ```
